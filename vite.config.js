@@ -6,6 +6,10 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vite.dev/config/
 export default defineConfig({
+  server: {
+    port: 8080,//自定义端口号
+    open: true,//是否在启动时自动打开浏览器窗口
+  },
   plugins: [
     vue(),
     AutoImport({
@@ -22,4 +26,5 @@ export default defineConfig({
       },
     ],
   },
+
 });

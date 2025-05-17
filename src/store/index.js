@@ -13,6 +13,5 @@ export const useAllDataStore = defineStore('counter', () => {
     //computed getters
     //function actions
     const state = ref(initState());
-
     return { state };
 });
