@@ -3,6 +3,7 @@
 【动态组件+持久化】用途 tab 切换展示
 动态组件标签 <component  :is=""></compoent>
 is 就是要动态解析的组件
+11
 
 ````vue
 import test from 'test.vue';
